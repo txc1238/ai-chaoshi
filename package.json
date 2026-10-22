@@ -1,0 +1,9 @@
+{
+  "name": "ai-chaoshi",
+  "private": true,
+  "type": "module",
+  "description": "AI 超市 static site. Edit data/links.json to point visit buttons at affiliate URLs later.",
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}

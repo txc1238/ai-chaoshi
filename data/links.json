@@ -1,0 +1,86 @@
+{
+  "affiliateLinksActive": false,
+  "note": "以后只改这个文件：把 tools.<id>.visit 换成已批准的联盟链接，并把 affiliateLinksActive 设为 true。pricing 建议继续指向官方价格页，方便读者核对。",
+  "tools": {
+    "framer": {
+      "visit": "https://www.framer.com/",
+      "pricing": "https://www.framer.com/pricing"
+    },
+    "make": {
+      "visit": "https://www.make.com/",
+      "pricing": "https://www.make.com/en/pricing"
+    },
+    "fliki": {
+      "visit": "https://fliki.ai/",
+      "pricing": "https://fliki.ai/pricing"
+    },
+    "rytr": {
+      "visit": "https://rytr.me/",
+      "pricing": "https://rytr.me/pricing/"
+    },
+    "pictory": {
+      "visit": "https://pictory.ai/",
+      "pricing": "https://pictory.ai/pricing"
+    },
+    "murf": {
+      "visit": "https://murf.ai/",
+      "pricing": "https://murf.ai/pricing"
+    },
+    "elevenlabs": {
+      "visit": "https://elevenlabs.io/",
+      "pricing": "https://elevenlabs.io/pricing"
+    },
+    "synthesia": {
+      "visit": "https://www.synthesia.io/",
+      "pricing": "https://www.synthesia.io/pricing"
+    },
+    "gamma": {
+      "visit": "https://gamma.app/",
+      "pricing": "https://gamma.app/pricing"
+    },
+    "runway": {
+      "visit": "https://runway.com/",
+      "pricing": "https://runway.com/pricing"
+    },
+    "chatgpt": {
+      "visit": "https://chatgpt.com/",
+      "pricing": "https://openai.com/chatgpt/pricing/"
+    },
+    "claude": {
+      "visit": "https://claude.ai/",
+      "pricing": "https://www.anthropic.com/pricing"
+    },
+    "gemini": {
+      "visit": "https://gemini.google.com/",
+      "pricing": "https://one.google.com/about/google-ai-plans/"
+    },
+    "heygen": {
+      "visit": "https://www.heygen.com/",
+      "pricing": "https://www.heygen.com/pricing"
+    },
+    "grammarly": {
+      "visit": "https://www.grammarly.com/",
+      "pricing": "https://www.grammarly.com/plans"
+    },
+    "quillbot": {
+      "visit": "https://quillbot.com/",
+      "pricing": "https://quillbot.com/premium"
+    },
+    "notion": {
+      "visit": "https://www.notion.com/",
+      "pricing": "https://www.notion.com/pricing"
+    },
+    "canva": {
+      "visit": "https://www.canva.com/",
+      "pricing": "https://www.canva.com/pricing/"
+    },
+    "midjourney": {
+      "visit": "https://www.midjourney.com/",
+      "pricing": "https://docs.midjourney.com/docs/plans"
+    },
+    "perplexity": {
+      "visit": "https://www.perplexity.ai/",
+      "pricing": "https://www.perplexity.ai/pro"
+    }
+  }
+}

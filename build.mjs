@@ -139,7 +139,7 @@ function footer() {
       </div>
       <div>
         <p><a href="mailto:${esc(config.contactEmail)}">${esc(config.contactEmail)}</a></p>
-        <p>购买按钮的网址集中在 data/links.json。联盟链接获批前，它们指向各工具官网。</p>
+        <p>「去官网看看」目前打开各工具的官方网站。付款在厂商那里完成，不经过我们。</p>
       </div>
     </div>
   </footer>`;
@@ -169,7 +169,7 @@ function actions(id) {
     <a class="btn btn-primary" href="${esc(row.visit)}" rel="${visitRel()}">去官网看看</a>
     <a class="btn btn-secondary" href="${esc(row.pricing)}" rel="noopener noreferrer">查看官方价格</a>
   </p>
-  <p class="fine">价格整理自公开页面，截至 ${esc(config.priceAsOf)}。购买按钮读取 data/links.json，不在每篇文章里各写一个网址。</p>`;
+  <p class="fine">价格整理自公开页面，截至 ${esc(config.priceAsOf)}。下单前请再打开官方价格页核对。</p>`;
 }
 
 function altList(list) {
@@ -214,7 +214,7 @@ function reviewBody(tool) {
       <section class="panel"><h2>官方链接</h2>${actions(tool.id)}</section>
       <section class="source-list"><h2>资料来源</h2><ul>${tool.sources
         .map((source) => `<li><a href="${esc(source.url)}" rel="noopener noreferrer">${esc(source.label)}</a></li>`)
-        .join("")}</ul><p class="fine">只引用这次能读到的厂商页面。读不到的数字没有写进正文。</p></section>
+        .join("")}</ul><p class="fine">文中的价格和功能来自下面这些厂商页面。页面上没有的数字，正文里就不写。</p></section>
     </section>
   </article>`;
 }
@@ -278,7 +278,7 @@ function homeBody() {
       </div>
       <ul class="trust-row">
         <li>价格截至 ${esc(config.priceAsOf)}</li>
-        <li>按钮集中在一个配置文件</li>
+        <li>每篇注明价格来源</li>
         <li>不代付、不卖账号</li>
       </ul>
     </section>
@@ -296,7 +296,7 @@ function homeBody() {
         <p class="eyebrow">即将上架</p>
         <h3>独家优惠还在申请</h3>
         <p>这里不会放来路不明的折扣码，也不会编一个「超市专属 8 折」。等厂商确认、我们也能在官网核对的活动，才会写上来。</p>
-        <p class="fine">想在有可核对的优惠时收到一封邮件，用下面的按钮。邮件由你的邮箱发出，本站没有报名数据库。</p>
+        <p class="fine">想在有可核对的优惠时收到一封邮件，用下面的按钮。信由你的邮箱发出，我们不会据此另建一份报名名单。</p>
         <p><a class="btn btn-primary" href="mailto:${esc(config.contactEmail)}?subject=${encodeURIComponent("请在有官方优惠时告诉我")}&body=${encodeURIComponent("我想知道 AI 超市之后核对过的官方优惠。我的邮箱就是这封信的发件人。")}">有优惠时邮件告诉我</a></p>
       </div>
     </section>
@@ -304,7 +304,7 @@ function homeBody() {
       <div class="split">
         <div class="panel">
           <h2>价格怎么来的</h2>
-          <p>数字抄自厂商定价页或帮助中心，并注明是月付还是年付。两处官方说法冲突时，两句都留下。抓不到的美元价就写「见官网」。</p>
+          <p>数字来自厂商定价页或帮助中心，并注明是月付还是年付。两处官方说法不一致时，两句都留下。官网没写明的美元价，就标成「见官网」。</p>
         </div>
         <div class="panel">
           <h2>付款不经过我们</h2>
@@ -354,7 +354,7 @@ function directoryBody() {
     <p class="lede">每一格都标了品类、一句话、有没有免费档，以及截至 ${esc(config.priceAsOf)} 能核对到的起步价。点进去的长测评目前有 ${tools.filter((tool) => tool.hasReview).length} 篇。</p>
     <div class="filters" role="toolbar" aria-label="按品类筛选">${chips}</div>
     ${shelves}
-    <p class="fine">筛选在没有脚本时会显示全部货架。起步价旁边的小字用来说明年付、地区价或官方页面互相不一致的地方。</p>
+    <p class="fine">起步价旁边的小字用来说明年付、地区差价，或官方页面说法不一致的地方。</p>
   </section>`;
 }
 
@@ -451,9 +451,9 @@ for (const tool of tools.filter((item) => item.hasReview)) {
 
 const staticPages = [
   ["pay.html", "海外 AI 工具付款指南", "信用卡、PayPal、App Store、Google Play 和 Google 账号订阅 Gemini 的正当付款方式。AI 超市不代付、不代充。不是法律建议。", payPage()],
-  ["disclosure.html", "佣金披露", "AI 超市的联盟链接披露：按钮目前指向官网，佣金获批后只改 data/links.json。佣金不改变文中价格的写法。", disclosurePage()],
+  ["disclosure.html", "佣金披露", "AI 超市的佣金披露：去官网的按钮目前打开官方网站。若以后变成联盟链接，你的付款仍在厂商那里完成。", disclosurePage()],
   ["about.html", "关于我们", "AI 超市是面向中文读者的 AI 工具测评与导购站。价格来自官网公开资料，不提供代付。", aboutPage()],
-  ["privacy.html", "隐私政策", "AI 超市隐私政策：静态网站，无账号、无站内统计。联系通过邮件，托管在 GitHub Pages。", privacyPage()],
+  ["privacy.html", "隐私政策", "AI 超市隐私政策：不用注册，没有访问统计。联系通过邮件。网站由 GitHub Pages 提供访问。", privacyPage()],
   ["contact.html", "联系我们", "联系 AI 超市：txcxdm@gmail.com。欢迎指出价格错误。不要发送银行卡或要求代付。", contactPage()]
 ];
 for (const [rel, title, description, inner] of staticPages) add(rel, simplePage(title, description, rel, inner));

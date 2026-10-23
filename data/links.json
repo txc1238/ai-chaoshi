@@ -81,6 +81,166 @@
     "perplexity": {
       "visit": "https://www.perplexity.ai/",
       "pricing": "https://www.perplexity.ai/pro"
+    },
+    "kling": {
+      "visit": "https://klingai.com/",
+      "pricing": "https://klingai.com/membership/membership-plan"
+    },
+    "jimeng": {
+      "visit": "https://jimeng.jianying.com/",
+      "pricing": "https://apps.apple.com/cn/app/id6503676563"
+    },
+    "luma": {
+      "visit": "https://lumalabs.ai/",
+      "pricing": "https://lumalabs.ai/pricing"
+    },
+    "pika": {
+      "visit": "https://pika.art/",
+      "pricing": "https://pika.art/pricing"
+    },
+    "invideo": {
+      "visit": "https://invideo.io/",
+      "pricing": "https://invideo.io/pricing/"
+    },
+    "capcut": {
+      "visit": "https://www.capcut.com/",
+      "pricing": "https://www.capcut.com/pricing"
+    },
+    "opus": {
+      "visit": "https://www.opus.pro/",
+      "pricing": "https://www.opus.pro/pricing"
+    },
+    "kapwing": {
+      "visit": "https://www.kapwing.com/",
+      "pricing": "https://www.kapwing.com/pricing"
+    },
+    "veed": {
+      "visit": "https://www.veed.io/",
+      "pricing": "https://www.veed.io/pricing"
+    },
+    "jasper": {
+      "visit": "https://www.jasper.ai/",
+      "pricing": "https://www.jasper.ai/pricing"
+    },
+    "copyai": {
+      "visit": "https://www.copy.ai/",
+      "pricing": "https://www.copy.ai/prices"
+    },
+    "writesonic": {
+      "visit": "https://writesonic.com/",
+      "pricing": "https://writesonic.com/pricing"
+    },
+    "wordtune": {
+      "visit": "https://www.wordtune.com/",
+      "pricing": "https://www.wordtune.com/plans"
+    },
+    "speechify": {
+      "visit": "https://speechify.com/",
+      "pricing": "https://speechify.com/pricing/"
+    },
+    "wellsaid": {
+      "visit": "https://www.wellsaid.io/",
+      "pricing": "https://www.wellsaid.io/ai-voice-pricing"
+    },
+    "descript": {
+      "visit": "https://www.descript.com/",
+      "pricing": "https://www.descript.com/pricing"
+    },
+    "typecast": {
+      "visit": "https://typecast.ai/",
+      "pricing": "https://typecast.ai/pricing"
+    },
+    "lovo": {
+      "visit": "https://lovo.ai/",
+      "pricing": "https://lovo.ai/pricing"
+    },
+    "beautiful": {
+      "visit": "https://www.beautiful.ai/",
+      "pricing": "https://www.beautiful.ai/planpricing"
+    },
+    "pitch": {
+      "visit": "https://pitch.com/",
+      "pricing": "https://pitch.com/pricing"
+    },
+    "plusai": {
+      "visit": "https://www.plusai.com/",
+      "pricing": "https://www.plusai.com/pricing"
+    },
+    "presentations": {
+      "visit": "https://www.presentations.ai/",
+      "pricing": "https://www.presentations.ai/pricing"
+    },
+    "meitu": {
+      "visit": "https://www.designkit.cn/",
+      "pricing": "https://www.designkit.cn/pricing"
+    },
+    "decktopus": {
+      "visit": "https://www.decktopus.com/",
+      "pricing": "https://www.decktopus.com/pricing"
+    },
+    "copilot": {
+      "visit": "https://copilot.microsoft.com/",
+      "pricing": "https://www.microsoft.com/en-us/store/b/copilotpro"
+    },
+    "leonardo": {
+      "visit": "https://leonardo.ai/",
+      "pricing": "https://leonardo.ai/pricing"
+    },
+    "ideogram": {
+      "visit": "https://ideogram.ai/",
+      "pricing": "https://ideogram.ai/pricing/"
+    },
+    "freepik": {
+      "visit": "https://www.freepik.com/",
+      "pricing": "https://www.freepik.com/pricing"
+    },
+    "krea": {
+      "visit": "https://www.krea.ai/",
+      "pricing": "https://www.krea.ai/pricing"
+    },
+    "recraft": {
+      "visit": "https://www.recraft.ai/",
+      "pricing": "https://www.recraft.ai/pricing"
+    },
+    "firefly": {
+      "visit": "https://www.adobe.com/products/firefly.html",
+      "pricing": "https://www.adobe.com/products/firefly/plans.html"
+    },
+    "looka": {
+      "visit": "https://looka.com/",
+      "pricing": "https://www.looka.com/pricing"
+    },
+    "colossyan": {
+      "visit": "https://www.colossyan.com/",
+      "pricing": "https://www.colossyan.com/pricing"
+    },
+    "aistudios": {
+      "visit": "https://www.aistudios.com/",
+      "pricing": "https://www.aistudios.com/pricing"
+    },
+    "tavus": {
+      "visit": "https://www.tavus.io/",
+      "pricing": "https://www.tavus.io/pricing"
+    },
+    "captions": {
+      "visit": "https://captions.ai/",
+      "pricing": "https://captions.ai/pricing"
+    },
+    "akool": {
+      "visit": "https://akool.com/",
+      "pricing": "https://akool.com/pricing"
+    },
+    "did": {
+      "visit": "https://www.d-id.com/",
+      "pricing": "https://www.d-id.com/pricing/"
+    },
+    "hedra": {
+      "visit": "https://www.hedra.com/",
+      "pricing": "https://www.hedra.com/pricing"
+    },
+    "elai": {
+      "visit": "https://elai.io/",
+      "pricing": "https://elai.io/pricing"
     }
   }
 }
